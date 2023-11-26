@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif "Raleway", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+.logo {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.web {
+  width: 44px;
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
