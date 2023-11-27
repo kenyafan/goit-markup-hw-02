@@ -134,7 +134,7 @@ p {
   flex-shrink: 0;
   background: var(--CLOUD, #f4f4fd);
 }
-footer {
+.footer {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
