@@ -143,3 +143,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.light-bg {
+  background: var(--CLOUD, #f4f4fd);
+}
