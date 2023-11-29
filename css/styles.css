@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
@@ -12,7 +12,7 @@ a {
 }
 .logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -21,7 +21,7 @@ a {
 }
 .logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -44,25 +44,24 @@ a {
 .address {
   font-style: normal;
 }
-.maill {
+.address-items {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.phone-number {
-  color: var(--SLATE, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.address-items:hover {
+  color: #404bbf;
+}
+.address-items:focus {
+  color: #404bbf;
 }
 .dark-bg {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.h1-title {
+.title {
   width: 496px;
   color: var(--WHITE, #fff);
   text-align: center;
@@ -107,7 +106,7 @@ ul {
   letter-spacing: 0.32px;
 }
 
-h2 {
+.h2-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -116,14 +115,14 @@ h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-h3 {
+.h3-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-p {
+.content {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -156,7 +155,7 @@ p {
 }
 .footer-studio {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
