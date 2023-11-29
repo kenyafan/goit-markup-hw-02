@@ -86,7 +86,9 @@ a {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+}
+.list-item {
+  background-color: #ffffff;
 }
 .h2-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -112,11 +114,10 @@ ul {
   letter-spacing: 0.32px;
 }
 .light-bg {
-  flex-shrink: 0;
   background: var(--CLOUD, #f4f4fd);
+  background-color: #ffffff;
 }
 .footer {
-  flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-content {
