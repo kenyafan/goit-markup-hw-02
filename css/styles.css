@@ -98,7 +98,7 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.h3-title {
+.title-h3 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
