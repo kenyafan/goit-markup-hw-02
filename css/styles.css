@@ -68,7 +68,6 @@ a {
   letter-spacing: 1.12px;
 }
 .button {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
@@ -115,7 +114,7 @@ ul {
 }
 .light-bg {
   background: var(--CLOUD, #f4f4fd);
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
